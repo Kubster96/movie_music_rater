@@ -2,8 +2,8 @@ from setuptools import setup
 
 setup(name='movie_music_rater',
       version='0.1',
-      description='The funniest joke in the world',
-      url='http://github.com/storborg/funniest',
+      description='Python project 3',
+      url='https://github.com/Kubster96/movie_music_rater',
       author='Jakub Jungiewicz',
       author_email='jungiewiczjakub@gmail.com',
       license='MIT',
