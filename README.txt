@@ -1,5 +1,5 @@
+# Movie and music rater
 
-Main goal of program movieMusicApp is to outline the most important information.
 For movie or tv series user gives title of the show and gets information about popularity, voice count, average rating
 etc. In case of music, user gives artist name and program shows us the most popular artist which are similar to given
 one and the most popular songs by this artist.
