@@ -6,7 +6,6 @@ from movie_music_rater.exceptions import NoDataEXC, ResponseEXC
 
 
 class MusicData:
-
     api_key = "fa79514efe98769c82ba5fca5256c6b6"
     similar = []
     top_song = []
