@@ -1,11 +1,14 @@
 import pytest
-from movie_music_rater.MovieData import MovieData
-from movie_music_rater.MusicData import MusicData
+from movie_music_rater.movie_data import MovieData
+from movie_music_rater.music_data import MusicData
 
-from movie_music_rater.Exceptions import ResponseEXC, NoDataEXC
+from movie_music_rater.exceptions import ResponseEXC, NoDataEXC
 
 
 class Tests:
+
+    def __init__(self):
+        pass
 
     movie_data = MovieData()
     music_data = MusicData()

@@ -1,10 +1,9 @@
 import requests
 
-from movie_music_rater.Exceptions import NoDataEXC, ResponseEXC
+from movie_music_rater.exceptions import NoDataEXC, ResponseEXC
 
 
 class MovieData:
-
     api_key_v3 = "a2fc9a9514e82dfd0f6281eab939459d"
     request = ""
     downloaded = False
@@ -37,7 +36,6 @@ class MovieData:
         return self.data.get("results")[0].get("name")
 
     def get_data(self):
-
         response = requests.get(self.request)
         self.check_status(response)
         json_data = response.json()

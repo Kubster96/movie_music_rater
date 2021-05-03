@@ -2,7 +2,7 @@ from itertools import islice
 
 import requests
 
-from movie_music_rater.Exceptions import NoDataEXC, ResponseEXC
+from movie_music_rater.exceptions import NoDataEXC, ResponseEXC
 
 
 class MusicData:

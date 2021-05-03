@@ -1,7 +1,7 @@
-from movie_music_rater.MovieData import MovieData
-from movie_music_rater.MusicData import MusicData
+from movie_music_rater.movie_data import MovieData
+from movie_music_rater.music_data import MusicData
 
-from movie_music_rater.Exceptions import NoDataEXC, ResponseEXC
+from movie_music_rater.exceptions import NoDataEXC, ResponseEXC
 
 # messages
 
@@ -81,13 +81,13 @@ def main():
                 print_list(music_data.genres)
                 print("Involvement factor (scrobbles per listener): " + str(music_data.involvement_factor))
 
-
         working = input(info_continue) == 'y'
 
 
 def print_list(elements):
     for i in elements:
         print("\t - " + i)
+
 
 if __name__ == "__main__":
     main()
